@@ -41,7 +41,7 @@ public:
     Persona(string n, string d, int e) : DatosPersonales(n, d), Edad(e) {}
 
     void mostrarTodo() {
-        cout << "--- Informaci�n de la Persona ---" << endl;
+        cout << "--- Informacion de la Persona ---" << endl;
         mostrarDatos();
         verificarEdad();
     }
